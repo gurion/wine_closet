@@ -15,6 +15,7 @@ struct ContentView: View {
         TabView(selection: $selection){
             Text("First View")
                 .font(.title)
+                .multilineTextAlignment(.center)
                 .tabItem {
                     VStack {
                         Image("first")
