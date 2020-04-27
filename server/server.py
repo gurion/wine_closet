@@ -5,6 +5,9 @@ app.config['DEBUG'] = True
 
 @app.route('/', methods=['GET'])
 def test():
-    return "<h1>Wine Closet Test<h1><p>This shows the server is working</p>"
+    return "<h1>Wine Closet Test<h1><p>The server is working</p>"
 
+@app.route('/')
+def test2():
+    return
 app.run()
